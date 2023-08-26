@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h3><b>Awesome Movie App</b></h3>
+  <h3><b>Math Magician App</b></h3>
 
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -25,13 +25,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magician App] <a name="about-project"></a>
-**[Math Magician App]** Math magician app is a single-page app. Users can perform perform arithmetic operations and Fetch random Quotes using API. Built with React and API.
+# 📖 [Awesome Movie App] <a name="about-project"></a>
+
+**[Awesome Movie App]** The Math Magician app is a single-page app. Users can perform arithmetic operations and Fetch random Quotes using API. Built with React and API.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This app  bulit with React, CSS and API
+> This app bulit with React, Javascript and API
 <details>
   <summary>Structure</summary>
   <ul>
@@ -53,11 +55,16 @@
     <li><a href="https://www.eslint.org/">eslint</a></li>
   </ul>
 </details>
-<details>
+
 <details>
 <summary>React</summary>
   <ul>
     <li><a href="https://react.dev/">React</a></li>
+  </ul>
+</details>
+<summary>API</summary>
+  <ul>
+    <li><a href="https://api-ninjas.com/api/"> API Ninjas</a></li>
   </ul>
 </details>
 
@@ -68,7 +75,9 @@
 > The following are the key features of the application.
 
 - [ ]  Linters setup
-- [ ]  Setup project with React
+- [ ]  React setup
+- [ ]  Perform math operation
+- [ ]  Fetch quotes from Ninjas API
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -78,7 +87,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Click the live demo to access the application.
-- coming soon
+- coming soon ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +116,7 @@ Clone this repository to your desired folder:
 
 To run the project, open the project using a live server from VS code editor.
 ```sh
-  cd math-magicians
+  cd math-magician
   code .
   npm install
 ```
@@ -127,9 +136,9 @@ To check for css errors run:
 ```sh
   npx stylelint "**/*.{css,scss}"
 ```
-To check for js  and jsx errors run:
+To check for js errors run:
 ```sh
-  npx eslint "**/*.{js,jsx}"
+  npx eslint .
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,12 +162,9 @@ To check for js  and jsx errors run:
 ## 🔭 Future Features <a name="future-features"></a>
 
 > The following features will add to the project.
-- [ ] Creat components
-- [ ] Add events
-- [ ] Fetch data from API to dispay Quotes
-- [ ] Add menu to design full website
-- [ ] Testing components (pair programming)
-- [ ] Deploy App
+- [ ] Design full website
+- [ ] Testing components
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->

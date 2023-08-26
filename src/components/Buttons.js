@@ -1,36 +1,41 @@
+import PropTypes from 'prop-types';
 import { Button, Operator } from './Button';
 
-const Buttons = () => (
+const Buttons = ({ onButtonClick }) => (
   <div className="button-container">
     <div className="row">
-      <Button symbol="AC" />
-      <Button symbol="+/-" />
-      <Button symbol="%" />
-      <Operator symbol="÷" />
+      <Button onClick={onButtonClick} symbol="AC" />
+      <Button onClick={onButtonClick} symbol="+/-" />
+      <Button onClick={onButtonClick} symbol="%" />
+      <Operator onClick={onButtonClick} symbol="÷" />
     </div>
     <div className="row">
-      <Button symbol="7" />
-      <Button symbol="8" />
-      <Button symbol="9" />
-      <Operator symbol="x" />
+      <Button onClick={onButtonClick} symbol="7" />
+      <Button onClick={onButtonClick} symbol="8" />
+      <Button onClick={onButtonClick} symbol="9" />
+      <Operator onClick={onButtonClick} symbol="x" />
     </div>
     <div className="row">
-      <Button symbol="4" />
-      <Button symbol="5" />
-      <Button symbol="6" />
-      <Operator symbol="-" />
+      <Button onClick={onButtonClick} symbol="4" />
+      <Button onClick={onButtonClick} symbol="5" />
+      <Button onClick={onButtonClick} symbol="6" />
+      <Operator onClick={onButtonClick} symbol="-" />
     </div>
     <div className="row">
-      <Button symbol="1" />
-      <Button symbol="2" />
-      <Button symbol="3" />
-      <Operator symbol="+" />
+      <Button onClick={onButtonClick} symbol="1" />
+      <Button onClick={onButtonClick} symbol="2" />
+      <Button onClick={onButtonClick} symbol="3" />
+      <Operator onClick={onButtonClick} symbol="+" />
     </div>
     <div className="row last-row">
-      <Button symbol="0" />
-      <Button symbol="." />
-      <Operator symbol="=" />
+      <Button onClick={onButtonClick} symbol="0" />
+      <Button onClick={onButtonClick} symbol="." />
+      <Operator onClick={onButtonClick} symbol="=" />
     </div>
   </div>
 );
 export default Buttons;
+
+Buttons.propTypes = {
+  onButtonClick: PropTypes.func.isRequired,
+};

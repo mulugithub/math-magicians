@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #f5f1f1;
+  background-color: #f3f3f3;
   width: 25rem;
   height: 60vh;
   padding: 2rem;
@@ -10,12 +10,11 @@
 }
 
 .App-header {
-  background-color: #078107;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  color: white;
+  color: #fff;
   padding: 1rem;
 }

@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  background-color: #f3f3f3;
   width: 25rem;
-  height: 60vh;
+  height: auto;
   padding: 2rem;
   margin-top: 4rem;
   border-radius: 1rem;
   box-shadow: 0 8px 15px -2px rgba(0, 0, 0, 0.2);
+  overflow-x: hidden;
 }
 
 .App-header {
@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  color: #fff;
+  color: #121111;
   padding: 1rem;
+  font-weight: 700;
 }

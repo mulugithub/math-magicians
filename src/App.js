@@ -1,4 +1,3 @@
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import NotMatch from './components/NotMatch';
 import Navbar from './components/Navbar';
@@ -9,8 +8,6 @@ import Quotes from './components/Quotes';
 const App = () => (
   <div className="App">
     <Navbar />
-    <Calculator />
-    <Quotes />
     <Routes>
       <Route path="*" element={<NotMatch />} />
       <Route path="/" element={<Home />} />

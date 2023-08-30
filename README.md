@@ -78,6 +78,7 @@
 - [ ]  React setup
 - [ ]  Perform math operation
 - [ ]  Fetch quotes from Ninjas API
+- [ ]  Implement full website styles
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -162,8 +163,8 @@ To check for js errors run:
 ## 🔭 Future Features <a name="future-features"></a>
 
 > The following features will add to the project.
-- [ ] Design full website
 - [ ] Testing components
+- [ ]  Deploy the App
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

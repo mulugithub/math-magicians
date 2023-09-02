@@ -4,6 +4,7 @@ exports[`Display result component render result correctly 1`] = `
 <div>
   <div
     class="display"
+    data-testid="display"
   >
     <p>
       0

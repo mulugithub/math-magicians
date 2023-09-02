@@ -8,14 +8,17 @@ Object {
       <div
         class="calculator-wrapper"
       >
-        <h3>
-          Let's Do some math
+        <h3
+          data-testid="subtitle"
+        >
+          Lets Do some math!
         </h3>
         <div
           class="calculator"
         >
           <div
             class="display"
+            data-testid="display"
           >
             <p>
               0
@@ -167,14 +170,17 @@ Object {
     <div
       class="calculator-wrapper"
     >
-      <h3>
-        Let's Do some math
+      <h3
+        data-testid="subtitle"
+      >
+        Lets Do some math!
       </h3>
       <div
         class="calculator"
       >
         <div
           class="display"
+          data-testid="display"
         >
           <p>
             0

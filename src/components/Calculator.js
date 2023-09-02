@@ -13,7 +13,7 @@ const Calculator = () => {
 
   return (
     <div className="calculator-wrapper">
-      <h3>Let&apos;s Do some math</h3>
+      <h3 data-testid="subtitle">Lets Do some math!</h3>
       <div className="calculator">
         <Display total={state.total} next={state.next} operation={state.operation} />
         <Buttons onButtonClick={handleButtonClicks} />

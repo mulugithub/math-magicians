@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display result component render result correctly 1`] = `
+<div>
+  <div
+    class="display"
+    data-testid="display"
+  >
+    <p>
+      0
+    </p>
+  </div>
+</div>
+`;

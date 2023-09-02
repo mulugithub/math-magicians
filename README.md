@@ -89,7 +89,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Click the live demo to access the application.
-- coming soon ...
+- [click here to see live demo](https://math-magician-yyip.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +169,7 @@ To check for js errors run:
 ## 🔭 Future Features <a name="future-features"></a>
 
 > The following features will add to the project.
-- [ ]  Deploy the App
+- Mobile first design
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
